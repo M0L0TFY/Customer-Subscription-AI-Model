@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset = pd.read_csv(r'C:\Users\Mohamed\Desktop\AIProject\shopping_behavior.csv')
+dataset = pd.read_csv("shopping_behavior.csv")
 X = dataset.iloc[:, 1:-1].values #x holds column 1 to 14 (age to payment method)
 y = dataset.iloc[:, -1].values #y holds subscription status
 
